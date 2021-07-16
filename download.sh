@@ -15,5 +15,5 @@ cd $HOME
 app='https://codeload.github.com/josesky/work_space/zip/refs/heads/main'
 curl  -O ${app} work_space.tar.gz 
 
-
+tar -zxvf $HOME/work_space.tar.gz -C $HOME
 
