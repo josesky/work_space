@@ -17,3 +17,4 @@ curl  -O ${app} work_space.tar.gz
 
 tar -zxvf $HOME/work_space.tar.gz -C $HOME
 
+echo -e "${green}===> success!"
